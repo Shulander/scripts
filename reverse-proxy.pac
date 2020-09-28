@@ -3,6 +3,5 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
     }
 
-    return "SOCKS 127.0.0.1:5050;";
-}    
-
+    return "SOCKS 127.0.0.1:5050; DIRECT";
+}
